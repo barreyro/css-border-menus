@@ -15,7 +15,7 @@
       },
       closeClickFn = function(){
         resetMenu();
-        overlay.removeEventLisenter(eventtype, closeClickFn);
+        overlay.removeEventListener(eventtype, closeClickFn);
       };
 
     var overlay = document.createElement('div');
