@@ -6,8 +6,8 @@
   }
 
   function init() {
-    var menu = document.getElementById( 'bt-menu' ),
-      trigger = menu.querySelector('a.bt-menu-trigger'),
+    var menu = document.getElementById('bt-menu');
+    var trigger = menu.querySelector('a.bt-menu-trigger'),
       eventtype = mobilecheck() ? 'touchstart' : 'click',
       resetMenu = function () {
         classie.remove(menu, 'bt-menu-open');
