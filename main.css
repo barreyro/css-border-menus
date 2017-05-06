@@ -1,0 +1,13 @@
+*,
+*:after,
+*::before {
+  box-sizing: border-box;
+}
+
+body {
+  background: #04a466;
+}
+
+.container {
+  padding: 80px;
+}
