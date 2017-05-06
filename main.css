@@ -80,3 +80,18 @@ body {
   transition: transform 0.3s;
 }
 
+.bt-menu-trigger span:before {
+  transform: translateY(-250%);
+}
+
+.bt-menu-trigger span:after {
+  transform: translateY(-250%);
+}
+
+.bt-menu-open .bt-menu-trigger span:before {
+  tranform: translateY(0) rotate(45deg);
+}
+
+.bt-menu-open .bt-menu-trigger span:after {
+  transform: translateY(0) rotate(-45deg);
+}
